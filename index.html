@@ -1,0 +1,103 @@
+<!--declaramos html5 para que el navegador ejecute en ese lenguaje-->
+<!DOCTYPE html>
+<!--determinamos el idioma-->
+<html lang="es">
+<!--la etiqueta head funciona para la metadata o información que el navegador lee-->
+<head>
+<!--   utf8 para caracteres especiales como ñ, acentos  -->
+    <meta charset="UTF-8">
+<!--indicamos que el área visible de la página web depende 100% del tamaño del dispositivo-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--dato necesario para los robots y posicionamiento (SEO)-->
+    <title>mi primer página web</title>
+<!--llamar a nuestra hoja de estilos-->
+        <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<!--el encabezado de nuestra página web-->
+    <header class="bg-image">
+      <div class="description-text">
+<!--los estilos van en el archivo.css jamás en -html
+MALA PRÁCTICA-->
+         <h1 style="font-size:50px">Vinicunca</h1>
+        <h3>Cusco, Perú</h3>
+      </div>
+    </header>
+    <section>
+       <article>
+            <p class="description">El aspecto de arcoíris de Vinicunca se debe a "una compleja historia geológica de sedimentos marinos, lacustres y fluviales", según un informe de la Oficina de Paisaje Cultural de la Dirección Desconcentrada de Cultura de Cusco.
+
+           </p>
+        </article>  
+<!--agregamos estilo de cajas con texto y columnas ===========-->
+        <article class="container">
+           
+<!--la etiqueta "p" es un párrafo-->
+            <p class="box">
+            <span class="box1">Rosado o fucsia: </span> 
+            mezcla de arcilla roja, fangolitas (fango) y arena. </p>
+            
+            <p class="box">
+            <span class="box2">Blanquecino: </span>
+            arenisca (arena de cuarzo) y piedra caliza.
+        </p>
+           
+            <p class="box"><span class="box3">Morado o lavanda:</span> marga (mezcla de arcilla y carbonato de calcio) y silicatos.</p>
+
+            <p class="box"><span class="box4">Rojo:</span> argilitas y arcillas.
+        </p>
+           
+            <p class="box"><span class="box5">Verde: </span>arcillas ricas en ferro magnesiano (mezcla de hierro y magnesio) y óxido de cobre.
+        </p>
+           
+            <p class="box"><span class="box6">Pardos amarillentos, mostaza o dorado:</span> limonitas, areniscas calcáreas ricas en minerales sulfurados (combinados con azufre).</p>
+            
+        </article>
+<!-- imagen de fondo fija-->
+        <article class="bg-img">
+            <p class="t-secundario">Amantes de la naturaleza</p>
+        </article>
+<!--==============================-->
+       <article>
+           <p class="description">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aspernatur unde culpa, perspiciatis facere expedita possimus repellendus. Incidunt totam quas ducimus, nisi laboriosam amet natus, fugit mollitia sed saepe ea.
+           </p>
+           
+<!--las imagenes tambien se pueden agregar dentro de una lista aunque es una MALA PRÁCTICA-->
+       
+           <ul class="flex-container">
+             <li><img class="flex-item" src="img/cusco1.jpeg" alt="Peru"></li>
+              <li><img class="flex-item" src="img/cusco2.jpg" alt="Arcoiris"></li>
+                    <li><img class="flex-item" src="img/cusco3.jpg" alt="Montaña"></li>
+                  
+                    <li>  <img class="flex-item" src="img/cusco.jpg" alt="Cusco"></li>
+
+                   <li> <img class="flex-item" src="img/cusco4.jpeg" alt="Peru"></li>
+              
+                    <li><img class="flex-item" src="img/cusco5.jpg" alt="Arcoiris"></li>
+            </ul>
+            
+        </article>
+        
+        
+   
+    </section>   
+<!--    ==============================-->
+    <footer>
+           <div class="red-box  dot">
+<!--               usamos la etiqueta "a" cuando necesitamos un link-->
+                <a href="https://www.facebook.com">f</a>        
+           </div>
+            <div class="red-box dot">
+               <a href="https://www.twitter.com">t</a>
+            </div>
+            <div class="red-box dot">
+                <a href="http://www.instagram.com">i</a>
+           </div>
+            <div class="red-box dot">
+                <a href="http://www.youtube.com">y</a>
+            </div>
+    </footer>
+</body>
+</html>
